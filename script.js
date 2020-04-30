@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
 })
 
 function load_stylesheet() {
-    const style_sheet = localStorage.getItem("stylesheet") || "light.css";
+    const style_sheet = localStorage.getItem("stylesheet") || "dark.css";
     document.getElementById("stylesheet").setAttribute("href", style_sheet);
 }
 
